@@ -1,0 +1,214 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 4rem;
+    position: sticky;
+    top: 0;
+    height: 12%;
+    align-items: center;
+    background: #F7F4FF;
+}
+.page1{
+    width: 100%;
+    height: 100%;
+    background: #F7F4FF;
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right a{
+    margin-right: 3rem;
+    text-decoration: none;
+    background: black;
+    color: white;
+    border-radius: 4rem;
+    padding: 2rem 3rem;
+    font-size: 3rem;
+}
+
+.main1{
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+h1{
+    margin: 2rem;
+    font-weight: bolder;
+}
+.p1{
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+.page2{
+    width: 100%;
+    height: 100%;
+    background: white;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.page2 h1{
+    margin: 4rem 0;
+    margin-top: 5rem;
+}
+.p2{
+    font-size: 2.6rem;
+    font-weight: bold;
+    margin: -1rem;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img{
+    margin: 4rem 3rem;
+    width: 90%;
+}
+.c-btn{
+    margin-right: 3rem;
+    text-decoration: none;
+    background: black;
+    color: white;
+    border-radius: 4rem;
+    padding: 2rem 3rem;
+    font-size: 3rem;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.p-store{
+    width: 60%;
+    
+}
+
+.a-store{
+    width: 60%;
+    
+    margin: 0rem 0;
+}
+
+.m-store{
+    width: 60%;
+    
+}
+
+.h3b{
+    font-weight: bolder;
+    margin-top: 10rem;
+    font-size: 3rem;
+}
+.p2b{
+    margin: 2rem;
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+.page3{
+    width: 100%;
+    height: auto;
+    background: #242227;
+}
+.a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0;
+    
+}
+.page3 a{
+    background: #C0A9F7;
+    padding: 2rem 3rem;
+    text-decoration: none;
+    border-radius: 4rem;
+    font-size: 3rem;
+    color: #252127;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+.footer{
+    margin: 4rem 4rem;
+    display: flex;
+    flex-direction: column;
+    color: #BFA9F5;
+}
+.link{
+    display: flex;
+    align-items: center;
+    margin: 3rem 0;
+}
+.footer svg{
+    
+}
+.footer a{
+    background: none;
+}
+
+.line{
+    width: auto;
+    height: 3px;
+    background: #797A7C;
+    margin: 3rem 0;
+}
+details summary{
+    font-size: 2.4rem;
+    font-weight: bolder;
+}
+details p{
+    color: #FFFFFF;
+    font-size: 2rem;
+    margin: 2rem 0;
+    
+}
+
+footer{
+margin: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2.3rem;
+}
+
+
+
+
+
+
+/* chatgpt generated */
+
+details {
+    transition: all 0.5s ease;
+    overflow: hidden;
+}
+
+details[open] {
+    padding-bottom: 1em; /* Optional: Add space below expanded details */
+}
+
+details[open] summary ~ * {
+    animation: sweep 1s ease-in-out;
+}
+
+@keyframes sweep {
+    0% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}/* till this */
